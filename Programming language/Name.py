@@ -1,0 +1,7 @@
+surName = input("Enter your surName: ")
+print ("surName")
+firstName = input("Enter your firstName: ")
+print("Hello,",firstName,surName)
+print("Your initials are:",firstName[0],surName[0])
+print("fullName",firstName,surName)
+print("Your user name is:",surName[0]+surName[1]+surName[2]+firstName[0]+str(id(surName)))
